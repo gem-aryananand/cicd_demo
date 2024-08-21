@@ -13,7 +13,7 @@ def generate_random_number():
 def clear_data():
     st.session_state.numbers = []
 
-st.title("Live Plot Generator")
+st.title("Live Plot Generator Tool")
 
 col1, col2 = st.columns([1, 2])
 
